@@ -1,19 +1,20 @@
 [green_agent]
-agentbeats_id = "YOUR_GREEN_AGENT_ID"
-image = "ghcr.io/yourorg/your-green-agent:version"
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019aba63-33b5-74c3-b3fe-2251347fa60a"
+image = "ghcr.io/komyo-ai/agentbeats-tutorial-debate-judge:latest"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
 agentbeats_id = ""
-name = "role_1_name"
+name = "pro_debater"
 image = ""
 env = {}
 
 [[participants]]
 agentbeats_id = ""
-name = "role_2_name"
+name = "con_debater"
 image = ""
 env = {}
 
 [config]
-# Add your assessment config here
+topic = "Should artificial intelligence be regulated?"
+num_rounds = 2
