@@ -15,5 +15,5 @@ image = "ghcr.io/komyo-ai/agentbeats-tutorial-debater:latest"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-topic = "Mystical experiences across traditions point to a shared reality."
+topic = "Jung's archetypes are discoveries, not inventions."
 num_rounds = 1
