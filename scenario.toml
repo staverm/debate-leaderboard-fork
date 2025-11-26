@@ -3,17 +3,17 @@ image = "ghcr.io/komyo-ai/agentbeats-tutorial-debate-judge:latest"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019abad5-ee3e-7680-bd26-ea0415914743"
 name = "pro_debater"
-image = ""
-env = {}
+image = "ghcr.io/komyo-ai/agentbeats-tutorial-debater:latest"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "019abad6-7640-7f00-9110-f5d405aa1194"
 name = "con_debater"
-image = ""
-env = {}
+image = "ghcr.io/komyo-ai/agentbeats-tutorial-debater:latest"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-topic = "Should artificial intelligence be regulated?"
-num_rounds = 2
+topic = "Mystical experiences across traditions point to a shared reality."
+num_rounds = 1
