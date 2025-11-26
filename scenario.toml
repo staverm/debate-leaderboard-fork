@@ -15,5 +15,5 @@ image = "ghcr.io/komyo-ai/agentbeats-tutorial-debater:latest"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-topic = "Jung's archetypes are discoveries, not inventions."
+topic = "Consciousness is fundamental to reality, not emergent from matter."
 num_rounds = 1
