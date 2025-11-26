@@ -15,5 +15,5 @@ image = "ghcr.io/komyo-ai/agentbeats-tutorial-debater:latest"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-topic = "Consciousness is fundamental to reality, not emergent from matter."
+topic = "Radical asceticism reveals truths unavailable to moderation."
 num_rounds = 1
