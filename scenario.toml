@@ -16,4 +16,4 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
 topic = "Mystical experiences across traditions point to a shared reality."
-num_rounds = 2
+num_rounds = 1
